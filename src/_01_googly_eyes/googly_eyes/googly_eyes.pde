@@ -1,8 +1,1 @@
 
-void setup() {
-  
-}
-
-void draw() {
-  
-}
