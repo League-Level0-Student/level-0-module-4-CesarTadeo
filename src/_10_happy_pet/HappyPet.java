@@ -89,7 +89,5 @@ static void walk() {
 	
 	JOptionPane.showMessageDialog(null, "Your " +userPet+" is 5 more happier");
 happinessLevel += 4;
-}			
-	
-		
+}					
 }
