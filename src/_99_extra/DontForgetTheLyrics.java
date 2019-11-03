@@ -32,7 +32,7 @@ public class DontForgetTheLyrics {
 
 		// 9. Record another sound and repeat steps 5-8.
 
-		// 10. [optional] Add a points variable that will calculate their final score.
+		// 10. [optional] Add a points variables that will calculate their final score.
 	}
 
 	public static void playSound(String fileName) {
