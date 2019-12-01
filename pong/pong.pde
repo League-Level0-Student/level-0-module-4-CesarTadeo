@@ -32,7 +32,14 @@ if(x > height || x < 0){
 }  
 rect(500, 870, 130, 20); 
 fill(#931313);  
-  
+
+Boolean(x, y, 500, 870, 110); {
+    if (y > 870 && x > 500 && x < 500 + 110)
+        xSpeed = -xSpeed;
+        ySpeed = -ySpeed
+    else
+        ;
+}
   
   
 }
