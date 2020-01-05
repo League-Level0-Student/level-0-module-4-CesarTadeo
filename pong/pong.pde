@@ -18,27 +18,38 @@ void setup(){
 
 void draw(){
 background(#435476);
-ellipse(x, y, 30, 30);
 
-fill(#A21919);
-stroke(#A21919);
+ellipse(x, y, 30, 30);
+fill(#A54321);
+stroke(54321);
 x+=xSpeed;
 y+=ySpeed;
 
 if(x > width || x < 0){
-  
   xSpeed = -xSpeed;
 }  
-if(x > height || x < 0){
-    
+if(x > height){  
   ySpeed = -ySpeed;
 }  
+if(x < 0){
+  ySpeed = -ySpeed;
+}
+
+
 rect(mouseX, 870, 150, 20); 
 fill(#931313);  
 
 if(intersects(x, y, mouseX, 870, 150)){
 ySpeed = -ySpeed;
 }  
+if(intersects(x, y, mouseX, 870, 150)){
+xSpeed = -xSpeed;
+}  
+
+
+
+
+
 }
 
 
